@@ -7,7 +7,7 @@ const blogRouter = require('./routes/BloggerRoute');
 const app = express();
 
 app.use(cors(
-    { origin: 'http://localhost:3000', credentials: true } 
+    { origin: 'https://blog-frontend-rust-ten.vercel.app', credentials: true } 
 ));
 
 app.use(express.urlencoded({ extended: true }))
